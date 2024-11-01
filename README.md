@@ -1,12 +1,12 @@
 # K8s
 
-Role
+**Role**
 
-Role defines what can be done to Kubernetes Resources.
-Role contains one or more rules that represent a set of permissions.
-Permissions are additive. There are no deny rules.
-Roles are namespaced, meaning Roles work within the constraints of a namespace. It would default to the default namespace if none was specified.
-After creating a Role, you assign it to a user or group of users by creating a RoleBinding.
+1.Role defines what can be done to Kubernetes Resources.
+2.Role contains one or more rules that represent a set of permissions.
+3.Permissions are additive. There are no deny rules.
+4.Roles are namespaced, meaning Roles work within the constraints of a namespace. It would default to the default namespace if none was specified.
+5.After creating a Role, you assign it to a user or group of users by creating a RoleBinding.
 Example
 Here’s an example Role in the “default” namespace that can be used to grant read access to pods:
 
